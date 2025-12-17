@@ -75,27 +75,27 @@ export const projectsData = [
 
   export const testimonialsData = [
     {
-        name: "Donald Jackman",
-        title: "Marketing Manager",
+        name: "Sarah Jenkins",
+        title: "Marketing Director",
         image: profile_img_1,
-        alt: "Portrait of Donald Jackman",
+        alt: "Portrait of Sarah Jenkins",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "The team transformed our outdated website into a modern, high-speed platform. Their expertise in React.js significantly improved our user engagement and conversion rates."
     },
     {
-        name: "Richard Nelson",
-        title: "UI/UX Designer",
+        name: "David Chen",
+        title: "Startup Founder",
         image: profile_img_2,
-        alt: "Portrait of Richard Nelson",
-        rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        alt: "Portrait of David Chen",
+        rating: 5,
+        text: "I was blown away by their attention to detail. They took our rough app concept and turned it into a polished, scalable product that investors absolutely love."
     },
     {
-        name: "James Washington",
-        title: "Co-Founder",
+        name: "Emily Rodrigues",
+        title: "Operations Manager",
         image: profile_img_3,
-        alt: "Portrait of James Washington",
-        rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        alt: "Portrait of Emily Rodrigues",
+        rating: 4,
+        text: "Professional, responsive, and incredibly talented. The custom internal dashboard they built using Node.js has completely automated our workflow. Highly recommended!"
     }
 ];
