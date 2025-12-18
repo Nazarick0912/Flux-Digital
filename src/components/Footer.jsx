@@ -10,28 +10,24 @@ const Footer = () => {
 
       <div className="max-w-[1240px] mx-auto px-4 py-20 relative z-10">
 
-        <div className="glass-card rounded-3xl p-8 md:p-12 mb-16">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                Ready to Start Your <span className="text-gradient-primary">Digital Journey?</span>
-              </h2>
-              <p className="text-gray-400 text-lg">
-                Let's discuss how Flux Digital can transform your business with innovative technology solutions.
-              </p>
-            </div>
-            
-            <form className="flex flex-col sm:flex-row gap-4" onSubmit={(e) => e.preventDefault()}>
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-5 py-4 bg-[#0a192f] border border-gray-700 text-white rounded-xl focus:outline-none focus:border-[#00df9a] focus:ring-1 focus:ring-[#00df9a] transition placeholder-gray-500"
-              />
-              <button className="px-8 py-4 bg-[#00df9a] text-black font-bold rounded-xl transition-all duration-300 hover:bg-[#00c489] hover:translate-y-[-2px] hover:shadow-[0_10px_20px_-10px_rgba(0,223,154,0.5)] whitespace-nowrap active:scale-95">
-                Get in Touch
-              </button>
-            </form>
-          </div>
+        <div className="text-center mb-20">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            Ready to <span className="text-gradient-primary">Scale Up?</span>
+          </h2>
+          <p className="text-gray-400 text-lg max-w-xl mx-auto mb-10">
+            Join the Flux Digital ecosystem. Exclusive insights on IoT and Cloud Architecture, delivered to your inbox.
+          </p>
+          
+          <form className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto" onSubmit={(e) => e.preventDefault()}>
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              className="flex-1 px-6 py-4 bg-[#112240] border border-gray-700/50 text-white rounded-lg focus:outline-none focus:border-[#00df9a]/50 transition placeholder-gray-500"
+            />
+            <button className="px-8 py-4 bg-[#00df9a] text-black font-semibold rounded-lg transition-all duration-300 hover:bg-[#00c489] whitespace-nowrap">
+              Subscribe
+            </button>
+          </form>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-16">
