@@ -1,14 +1,11 @@
-import React from 'react';
-
-const Testimonials = () => {
-  const reviews = [
-    {
-      id: 1,
-      name: "James Wilson",
-      company: "TechNova Solutions",
-      comment: "Flux Digital transformed our legacy systems into a modern cloud architecture. The transition was seamless and improved our efficiency by 40%.",
-      image: "https://i.pravatar.cc/150?img=33" // Placeholder avatar
-    },
+const reviews = [
+  {
+    id: 1,
+    name: "James Wilson",
+    company: "TechNova Solutions",
+    comment: "Flux Digital transformed our legacy systems into a modern cloud architecture. The transition was seamless and improved our efficiency by 40%.",
+    image: "https://i.pravatar.cc/150?img=33"
+  },
     {
       id: 2,
       name: "Elena Rodriguez",
@@ -23,13 +20,13 @@ const Testimonials = () => {
       comment: "Security was our top priority, and Flux delivered. Their cybersecurity team identified vulnerabilities we didn't even know existed.",
       image: "https://i.pravatar.cc/150?img=12"
     }
-  ];
+];
 
+const Testimonials = () => {
   return (
     <div id="testimonials" className="w-full bg-[#0a192f] py-20 px-4">
       <div className="max-w-[1240px] mx-auto">
 
-        {/* Header */}
         <div className="text-center mb-16">
           <p className="text-[#00df9a] font-bold uppercase tracking-widest">Testimonials</p>
           <h2 className="text-3xl md:text-5xl font-bold text-white py-4">
@@ -37,15 +34,11 @@ const Testimonials = () => {
           </h2>
         </div>
 
-        {/* Reviews Grid */}
         <div className="grid md:grid-cols-3 gap-8">
           {reviews.map((review) => (
             <div key={review.id} className="bg-[#112240] p-8 rounded-xl shadow-xl hover:scale-105 duration-300 border border-gray-700 relative">
-
-              {/* Giant Quote Icon for Decoration */}
               <div className="absolute top-4 right-6 text-6xl text-[#00df9a] opacity-20 font-serif">"</div>
 
-              {/* User Info */}
               <div className="flex items-center gap-4 mb-6">
                 <img
                   src={review.image}
@@ -58,12 +51,10 @@ const Testimonials = () => {
                 </div>
               </div>
 
-              {/* The Review Text */}
               <p className="text-gray-300 italic relative z-10">
                 "{review.comment}"
               </p>
 
-              {/* Star Rating */}
               <div className="flex mt-4 text-[#00df9a]">
                 {'★'.repeat(5)}
               </div>
