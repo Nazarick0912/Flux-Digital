@@ -1,24 +1,24 @@
 const reviews = [
   {
     id: 1,
-    name: "James Wilson",
+    name: "Ahmad Firdaus",
     company: "TechNova Solutions",
     comment: "Flux Digital transformed our legacy systems into a modern cloud architecture. The transition was seamless and improved our efficiency by 40%.",
-    image: "https://i.pravatar.cc/150?img=33"
+    image: "https://i.pravatar.cc/150?img=15"
   },
     {
       id: 2,
-      name: "Elena Rodriguez",
+      name: "Nur Aisyah Zulkifli",
       company: "GreenEarth IoT",
       comment: "Their IoT integration skills are unmatched. We can now monitor our field sensors in real-time with zero latency. Highly recommended!",
-      image: "https://i.pravatar.cc/150?img=47"
+      image: "https://ui-avatars.com/api/?name=Nur+Aisyah&background=0D9488&color=fff"
     },
     {
       id: 3,
-      name: "Marcus Chen",
+      name: "Jennie Ruby",
       company: "FinTech Global",
       comment: "Security was our top priority, and Flux delivered. Their cybersecurity team identified vulnerabilities we didn't even know existed.",
-      image: "https://i.pravatar.cc/150?img=12"
+      image: "https://i.pravatar.cc/150?img=32"
     }
 ];
 
