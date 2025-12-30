@@ -1,4 +1,4 @@
-import {Code2, Cloud, Wifi, ShieldCheck} from "lucide-react";
+import { Code2, Cloud, Wifi, ShieldCheck } from "lucide-react";
 
 const servicesData = [
     {
@@ -12,21 +12,21 @@ const servicesData = [
         id: 2,
         title: "Cloud Infrastructure",
         desc: "Secure and scalable cloud solutions that grow with your company, ensuring 99.9% uptime.",
-        iconColor: "bg-[#00df9a]/10 text-[#00df9a]",
+        iconColor: "bg-blue-500/10 text-blue-500",
         icon: Cloud
     },
     {
         id: 3,
         title: "IoT Solutions",
         desc: "Connecting your physical assets to the digital world with smart sensors and real-time analytics.",
-        iconColor: "bg-purple-500/10 text-purple-500",
+        iconColor: "bg-blue-500/10 text-blue-500",
         icon: Wifi
     },
     {
         id: 4,
         title: "Cybersecurity",
         desc: "Advanced threat protection to safeguard your data integrity and client trust.",
-        iconColor: "bg-pink-500/10 text-pink-500",
+        iconColor: "bg-blue-500/10 text-blue-500",
         icon: ShieldCheck
     }
 ];

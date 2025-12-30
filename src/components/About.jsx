@@ -56,15 +56,15 @@ const About = () => {
             <p className="text-white font-medium mt-2">Projects Delivered</p>
           </div>
           <div className="w-1/2 md:w-1/4 p-4">
-            <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400 drop-shadow-lg">50+</h2>
+            <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#00df9a] to-cyan-400 drop-shadow-lg">50+</h2>
             <p className="text-white font-medium mt-2">Enterprise Clients</p>
           </div>
           <div className="w-1/2 md:w-1/4 p-4">
-            <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 drop-shadow-lg">99%</h2>
+            <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#00df9a] to-cyan-400 drop-shadow-lg">99%</h2>
             <p className="text-white font-medium mt-2">Satisfaction Rate</p>
           </div>
           <div className="w-1/2 md:w-1/4 p-4">
-            <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-orange-400 drop-shadow-lg">24/7</h2>
+            <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#00df9a] to-cyan-400 drop-shadow-lg">24/7</h2>
             <p className="text-white font-medium mt-2">Support Active</p>
           </div>
         </div>
