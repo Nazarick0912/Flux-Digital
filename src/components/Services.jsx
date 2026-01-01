@@ -53,8 +53,8 @@ const Services = () => {
                             <div
                                 key={item.id}
                                 className="group relative bg-[#112240] p-6 rounded-xl
-                           overflow-hidden hover:-translate-y-2
-                           transition-all duration-300 shadow-xl"
+                               overflow-hidden hover:-translate-y-2
+                               transition-all duration-300 shadow-xl"
                             >
                                 {/* Top gradient bar */}
                                 <div className="absolute top-0 left-0 w-full h-1
@@ -66,8 +66,8 @@ const Services = () => {
                                 {/* Icon */}
                                 <div
                                     className={`w-16 h-16 rounded-lg ${item.iconColor}
-                              flex items-center justify-center mb-6
-                              group-hover:scale-110 transition-transform`}
+                                  flex items-center justify-center mb-6
+                                  group-hover:scale-110 transition-transform`}
                                 >
                                     <Icon className="w-8 h-8" strokeWidth={1.8} />
                                 </div>

@@ -1,11 +1,15 @@
 import { Linkedin, Github } from "lucide-react";
+import kyzerImg from '../assets/kyzer.jpg';
+import hanlimImg from '../assets/hanlim.png';
+import ivanImg from '../assets/ivan.jpg';
+import yongshenImg from '../assets/yongshen.jpg';
 
 const teamData = [
     {
         id: 1,
         name: "Kyzer Phneh",
         role: "CEO & Founder",
-        image: "https://i.pravatar.cc/150?img=11",
+        image: kyzerImg,
         desc: "Visionary leader with 15+ years in IoT ecosystems.",
         borderColor: "border-white",
         linkedin: "https://www.linkedin.com/in/kyzer-phneh/",
@@ -15,7 +19,7 @@ const teamData = [
         id: 2,
         name: "Yap Han Lim",
         role: "Chief Technology Officer",
-        image: "https://i.pravatar.cc/150?img=5",
+        image: hanlimImg,
         desc: "Expert in cloud architecture and scalable systems.",
         borderColor: "border-white",
         linkedin: "https://www.linkedin.com/in/yap-han-lim-5962a6244",
@@ -25,7 +29,7 @@ const teamData = [
         id: 3,
         name: "Ivan Lim Zheng Xian",
         role: "Lead Developer",
-        image: "https://i.pravatar.cc/150?img=13",
+        image: ivanImg,
         desc: "Full-stack wizard specializing in React and Node.js.",
         borderColor: "border-white",
         linkedin: "https://www.linkedin.com/in/ivan-lim-zheng-xian-5199b6295",
@@ -35,7 +39,7 @@ const teamData = [
         id: 4,
         name: "Goo Yong Shen",
         role: "Product Designer",
-        image: "https://i.pravatar.cc/150?img=9",
+        image: yongshenImg,
         desc: "Creating intuitive human-centric digital experiences.",
         borderColor: "border-white",
         linkedin: "https://www.linkedin.com/in/gooys0912",
