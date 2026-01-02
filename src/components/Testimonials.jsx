@@ -30,7 +30,7 @@ const Testimonials = () => {
         <div className="text-center mb-16">
           <p className="text-[#00df9a] font-bold uppercase tracking-widest">Testimonials</p>
           <h2 className="text-3xl md:text-5xl font-bold text-white py-4">
-            Trusted by <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00df9a] to-blue-500">Industry Leaders</span>
+            Trusted by <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-400 drop-shadow-lg">Industry Leaders</span>
           </h2>
         </div>
 

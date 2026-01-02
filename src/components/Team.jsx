@@ -59,7 +59,7 @@ const Team = () => {
                     </p>
                     <h2 className="md:text-5xl sm:text-4xl text-3xl font-bold text-white py-2">
                         Meet the{" "}
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00df9a] to-blue-500">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-400 drop-shadow-lg">
                             Innovators
                         </span>
                     </h2>
@@ -109,14 +109,16 @@ const Team = () => {
 
                             {/* Social Icons (NORMAL FLOW, BELOW TEXT) */}
                             <div
-                                className="mt-0 flex justify-center gap-4
-                                           opacity-0 translate-y-2
-                                           group-hover:mt-6
-                                           group-hover:opacity-100
-                                           group-hover:translate-y-0
-                                           transition-all duration-300"
+                                className="
+                                mt-6 flex justify-center gap-4
+                                opacity-100 translate-y-0
+                                md:mt-0 md:opacity-0 md:translate-y-2
+                                md:group-hover:mt-6 md:group-hover:opacity-100 md:group-hover:translate-y-0
+                                transition-all duration-300
+                                "
                             >
-                                <a
+
+                            <a
                                     href={member.linkedin}
                                     target="_blank"
                                     rel="noopener noreferrer"
