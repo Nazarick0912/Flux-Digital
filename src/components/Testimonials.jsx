@@ -1,24 +1,22 @@
 const reviews = [
-  {
-    id: 1,
-    name: "Ahmad Firdaus",
-    company: "TechNova Solutions",
-    comment: "Flux Digital transformed our legacy systems into a modern cloud architecture. The transition was seamless and improved our efficiency by 40%.",
-    image: "https://i.pravatar.cc/150?img=15"
-  },
+    {
+      id: 1,
+      name: "Ahmad Firdaus",
+      company: "TechNova Solutions",
+      comment: "Flux Digital transformed out legacy systems into a modern architecture. The transition was seamless and improved our efficiency by 40%."
+    },
+
     {
       id: 2,
       name: "Nur Aisyah Zulkifli",
       company: "GreenEarth IoT",
       comment: "Their IoT integration skills are unmatched. We can now monitor our field sensors in real-time with zero latency. Highly recommended!",
-      image: "https://ui-avatars.com/api/?name=Nur+Aisyah&background=0D9488&color=fff"
     },
     {
       id: 3,
-      name: "Jennie Ruby",
+      name: "Jennie Chia",
       company: "FinTech Global",
       comment: "Security was our top priority, and Flux delivered. Their cybersecurity team identified vulnerabilities we didn't even know existed.",
-      image: "https://i.pravatar.cc/150?img=32"
     }
 ];
 
@@ -40,15 +38,15 @@ const Testimonials = () => {
               <div className="absolute top-4 right-6 text-6xl text-[#00df9a] opacity-20 font-serif">"</div>
 
               <div className="flex items-center gap-4 mb-6">
-                <img
-                  src={review.image}
-                  alt={review.name}
-                  className="w-12 h-12 rounded-full border-2 border-[#00df9a]"
-                />
-                <div>
-                  <h3 className="text-white font-bold">{review.name}</h3>
-                  <p className="text-gray-400 text-sm">{review.company}</p>
-                </div>
+                  <img
+                      src={`https://ui-avatars.com/api/?name=${encodeURIComponent(review.name)}&background=0D9488&color=fff&size=128`}
+                      alt={review.name}
+                      className="w-12 h-12 rounded-full border-2 border-[#00df9a]"
+                  />
+                  <div>
+                    <h3 className="text-white font-bold">{review.name}</h3>
+                    <p className="text-gray-400 text-sm">{review.company}</p>
+                  </div>
               </div>
 
               <p className="text-gray-300 italic relative z-10">
